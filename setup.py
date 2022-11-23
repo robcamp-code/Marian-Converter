@@ -19,7 +19,7 @@ setup(
         "Bug Tracker": "https://github.com/robcamp-code/Marian-Converter/issues"
     },
     license='MIT',
-    packages=['Marian-Converter'],
+    packages=find_packages(),
     install_requires=[
         str(r)
         for r in pkg_resources.parse_requirements(
